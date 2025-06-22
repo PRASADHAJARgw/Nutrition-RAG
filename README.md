@@ -54,17 +54,17 @@ FuelFit/
 git clone https://github.com/PRASADHAJARgw/Nutrition-RAG.git
 cd Nutrition-RAG
 
-2. Install Python Dependencies
+### 2. Install Python Dependencies
 pip install -r requirements.txt
 
-3. Set Environment Variables
+### 3. Set Environment Variables
 Create a .env file in the root directory:
 GOOGLE_API_1=your_google_api_key_here
 
-4. Run the App
+### 4. Run the App
 streamlit run app.py
 
-The app will open in your browser at http://localhost:8501.
+### The app will open in your browser at http://localhost:8501.
 🧠 How It Works
 	1.	PDF Loading
 	•	Downloads a health PDF from a shared Google Drive link
