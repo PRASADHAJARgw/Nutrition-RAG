@@ -18,7 +18,7 @@
 ## 🖥️ Demo
 
 > *“Fuel your body with what helps it flourish.”*
-
+"[FuelFit Demo](https://fuelfit.streamlit.app/)"
 ![FuelFit UI](images/fuelfit_ui.png)
 
 ---
@@ -110,7 +110,7 @@ The app will open in your browser at `http://localhost:8501`.
 
 | Health Input Form | Personalized Output |
 |------------------|---------------------|
-| ![form](images/form.png) | ![output](images/output.png) |
+| ![form](images/fuelfit_ui.png) | ![output](images/output.png) |
 
 ---
 
@@ -139,6 +139,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧠 Quote
 
-> *"Made with ❤️ by Prasad Hajare |  "Powered by Avanya AI",
-    "[Powered by Avanya AI](https://avianya.com)"| Made in My BHARAT 🇮🇳"*
+> *"Made with ❤️ by Prasad Hajare |"[Powered by Avanya AI](https://avianya.com)"| Made in My BHARAT 🇮🇳"*
 """
