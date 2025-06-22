@@ -117,8 +117,8 @@ The app will open in your browser at `http://localhost:8501`.
 ## 🙋‍♂️ Author
 
 **Prasad Hajare**  
-📧 support@evalground.com  
-🔗 [LinkedIn](https://linkedin.com/in/prasadhajare)
+📧 prasadhajare2000@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/prasad-hajare)
 
 ---
 
@@ -139,5 +139,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧠 Quote
 
-> *"Made with ❤️ by Prasad Hajare | Powered by Avanya AI | Made in My BHARAT 🇮🇳"*
+> *"Made with ❤️ by Prasad Hajare |  "Powered by Avanya AI",
+    "[Powered by Avanya AI](https://avianya.com)"| Made in My BHARAT 🇮🇳"*
 """
