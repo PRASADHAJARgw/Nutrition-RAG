@@ -19,17 +19,19 @@
 
 > *“Fuel your body with what helps it flourish.”*
 
-![FuelFit UI](images/fuelfit_ui.png) <!-- Add your actual screenshot under `/images/` -->
+![FuelFit UI](images/fuelfit_ui.png)
 
 ---
 
 ## 📁 Project Structure
 
+```
 FuelFit/
 ├── app.py                  # Main Streamlit application
 ├── images/                 # Screenshots or UI images
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
 ---
 
@@ -53,65 +55,89 @@ FuelFit/
 ```bash
 git clone https://github.com/PRASADHAJARgw/Nutrition-RAG.git
 cd Nutrition-RAG
+```
 
 ### 2. Install Python Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Set Environment Variables
-Create a .env file in the root directory:
+
+Create a `.env` file in the root directory:
+
+```env
 GOOGLE_API_1=your_google_api_key_here
+```
 
 ### 4. Run the App
+
+```bash
 streamlit run app.py
+```
 
-### The app will open in your browser at http://localhost:8501.
-🧠 How It Works
-	1.	PDF Loading
-	•	Downloads a health PDF from a shared Google Drive link
-	•	Extracts and splits text into chunks
-	•	Converts chunks into vectors using HuggingFace model
-	•	Stores the index in FAISS for fast semantic search
-	2.	User Input
-	•	Collects personal and health details via the UI
-	3.	Diet/Workout Generation
-	•	Retrieves relevant chunks from PDF
-	•	Passes user details + context to Google Gemini
-	•	Gemini generates a structured, human-like plan
+The app will open in your browser at `http://localhost:8501`.
 
-⸻
+---
 
-✅ Example Prompts Used
-	•	“Create a detailed, personalized diet chart for a person named John, age 32, weight 70kg, height 175cm, diseases: Thyroid, gender=Male…”
-	•	“Use the PDF context to generate a week-wise workout plan tailored to a female aged 45 with hypertension…”
+## 🧠 How It Works
 
-⸻
+1. **PDF Loading**  
+   - Downloads a health PDF from a shared Google Drive link  
+   - Extracts and splits text into chunks  
+   - Converts chunks into vectors using HuggingFace model  
+   - Stores the index in FAISS for fast semantic search
 
-📸 Screenshots
-Health Input Form                                    Personalized Output
+2. **User Input**  
+   - Collects personal and health details via the UI
 
+3. **Diet/Workout Generation**  
+   - Retrieves relevant chunks from PDF  
+   - Passes user details + context to Google Gemini  
+   - Gemini generates a structured, human-like plan
 
-🙋‍♂️ Author
+---
 
-Prasad Hajare
-📧 support@evalground.com
-🔗 LinkedIn
+## ✅ Example Prompts Used
 
+- *"Create a detailed, personalized diet chart for a person named John, age 32, weight 70kg, height 175cm, diseases: Thyroid, gender=Male..."*
+- *"Use the PDF context to generate a week-wise workout plan tailored to a female aged 45 with hypertension..."*
 
-❤️ Credits
-	•	Google Generative AI
-	•	LangChain
-	•	HuggingFace Transformers
-	•	Streamlit
+---
 
+## 📸 Screenshots
 
-📄 License
+| Health Input Form | Personalized Output |
+|------------------|---------------------|
+| ![form](images/form.png) | ![output](images/output.png) |
 
-This project is licensed under the MIT License.
+---
 
-⸻
+## 🙋‍♂️ Author
 
-🧠 Quote
+**Prasad Hajare**  
+📧 support@evalground.com  
+🔗 [LinkedIn](https://linkedin.com/in/prasadhajare)
 
-“Made with ❤️ by Prasad Hajare | Powered by Avanya AI | Made in My BHARAT 🇮🇳”
+---
 
-⸻
+## ❤️ Credits
+
+- [Google Generative AI](https://ai.google.dev/)
+- [LangChain](https://www.langchain.com/)
+- [HuggingFace Transformers](https://huggingface.co/)
+- [Streamlit](https://streamlit.io/)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🧠 Quote
+
+> *"Made with ❤️ by Prasad Hajare | Powered by Avanya AI | Made in My BHARAT 🇮🇳"*
+"""
